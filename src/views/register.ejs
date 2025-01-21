@@ -4,7 +4,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Register</title>
   </head>
-  <body>
-    Register page
-  </body>
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    .red {
+    border: 1px solid red;
+}
+
+.green {
+    border: 1px solid green;
+}
+
+.yellow {
+    border: 1px solid yellow;
+}
+
+.register-container{
+    background-color: whitesmoke;
+    min-height: 100vh;
+    padding-top: 20px;
+    .content-right{
+        
+        border-radius: 10px;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 /10%);
+        box-sizing: border-box;
+       
+    .forgot-password{
+        text-decoration: none;
+        }
+    }
+}
+.content-left{
+  margin-top: 50px;
+
+  .brand{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #1877f2
+  }
+
+  .detail{
+    font-size: 20px;
+  }
+}
+  </style>
+<body>
+    <div class="Register-container mt-3">
+      <div class="container">
+        <div class="row px-3 px-sm-0">
+          <div class="content-left col-7">
+            <div class='brand'>
+              timkiemnhatro.vn
+            </div>
+            <div class="detail">
+              Tim kiem nha tro khu vuc Hanoi
+            </div>
+          </div>
+          <div class="content-right col-5 d-flex flex-column gap-3 py-3">
+            <div class="brand d-sm-none">
+                Bao dep trai
+            </div>
+            <div class="form-group">
+              <label>Email:</label>
+              <input type="text " class='form-control' placeholder="Email address"/>
+            </div>
+            <div class="form-group">
+              <label>Username:</label>
+              <input type="text " class='form-control' placeholder="Username"/>
+            </div>
+            <div class="form-group">
+              <label>Phone number:</label>
+              <input type="text " class='form-control' placeholder="Phone number"/>
+            </div>
+            <div class="form-group">
+              <label>Password:</label>
+              <input type="text " class='form-control' placeholder="Password"/>
+            </div>
+            <div class="form-group">
+                <label>Reenter password:</label>
+                <input type="text " class='form-control' placeholder="Reenter Password"/>
+              </div>
+            <button class='btn btn-primary'>Register</button>
+            <span class='text-center'>
+            <a class="already-account" href="#">Already have an account. Login?</a></span>
+            <hr/>
+            <div class='text-center'> 
+              <button class='btn btn-success'>Login</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
 </html>
